@@ -1,3 +1,13 @@
+@font-face {
+	font-family: 'Beauty1';
+	src: url('BeautyDemo.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Beauty2';
+	src: url('BeautyDemo.otf') format('truetype');
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -19,6 +29,10 @@ header {
     padding: 2vh;
 }
 
+h1 {
+	font-family: 'Beauty2';
+}
+
 .welcome {
     background-color: rgb(235,234,231);
     padding: 5vh;
@@ -27,11 +41,14 @@ header {
 }
 
 nav {
+	width: 30vw;
+	margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
+	column-gap: 10px;
+	row-gap: 10px;
 }
 
 nav > a {
