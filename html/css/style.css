@@ -124,7 +124,8 @@ h3 {
 	position: absolute;
 	background: url(../../img/pinceis.jpg);
 	background-attachment: fixed;
-	filter: blur(10px);
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
 }
 
 .background-trabalho .layout h3 {
@@ -154,6 +155,10 @@ h3 {
 	padding: 3px;
 	border-color: pink;
 	background-color: rgba(255, 192, 203, 0.676);
+}
+
+.agendamento p {
+	font-size: 1.4em;
 }
 
 .agendamento button img {
